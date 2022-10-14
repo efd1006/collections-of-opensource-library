@@ -26,16 +26,16 @@ import {
 } from '@efdiaz/psgc';
 
 // Get all regions
-const regions = getRegions();
+const regions: IRegion[] = getRegions();
 
 // Get all the province of the selected region
-const REGIN_IV_PROVINCES = getProvinces('04');
+const REGIN_IV_PROVINCES: IProvince[] = getProvinces('04');
 
 // Get all the cities/municipalities of the selected province
-const LAGUNA_MUNICIPALITIES_CITIES = getCityMuns('0434');
+const LAGUNA_MUNICIPALITIES_CITIES: ICityMun[] = getCityMuns('0434');
 
 // Get all the barangays of the selected city/municipality
-const SAN_PABLO_CITY_BARANGAYS = getBarangays('043424');
+const SAN_PABLO_CITY_BARANGAYS: IBarangay[] = getBarangays('043424');
 ```
 
 ## Building
