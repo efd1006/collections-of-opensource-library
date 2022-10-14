@@ -21,12 +21,12 @@ Provides PSGC (Philippine Standard Geographic Code) data for your applications a
 import {
   IRegion,
   getRegions,
-  getProvinces,
-  getCityMuns,
-  getBarangays,
   IProvince,
+  getProvinces,
   ICityMun,
+  getCityMuns,
   IBarangay,
+  getBarangays,
 } from '@efdiaz/psgc';
 
 // Get all regions

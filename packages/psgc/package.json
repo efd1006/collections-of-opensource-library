@@ -1,5 +1,22 @@
 {
   "name": "@efdiaz/psgc",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "description": "Philippine Standard Geographic Code (PSGC)",
+  "author": "Edmar Diaz <dev.edmardiaz@gmail.com>",
+  "url": "https://github.com/efd1006/collections-of-opensource-library/blob/main/packages/psgc/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efd1006/collections-of-opensource-library/tree/main/packages/psgc"
+  },
+  "keywords": [
+    "typescript",
+    "psgc",
+    "philippines",
+    "region",
+    "province",
+    "municipality",
+    "city",
+    "barangay"
+  ],
   "type": "commonjs"
 }
