@@ -19,10 +19,14 @@ Provides PSGC (Philippine Standard Geographic Code) data for your applications a
 
 ```typescript
 import {
+  IRegion,
   getRegions,
   getProvinces,
   getCityMuns,
   getBarangays,
+  IProvince,
+  ICityMun,
+  IBarangay,
 } from '@efdiaz/psgc';
 
 // Get all regions
